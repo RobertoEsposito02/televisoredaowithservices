@@ -9,5 +9,5 @@ import it.prova.televisoredaowithservices.model.Televisore;
 public interface TelevisoreDAO extends IBaseDAO<Televisore>{
 	public List<Televisore> findAllTelevisionMadeBetween(Date beforeDate, Date afterDate) throws Exception;
 	public Televisore findTheBiggestTelevision() throws Exception;
-	public List<String> findAllBrandsOfTelevionsMadeInTheLastSixMonth() throws Exception;
+	public List<String> findAllBrandsOfTelevionsMadeInTheLastSixMonth(String todayDate, String sixMonthFromToday) throws Exception;
 }

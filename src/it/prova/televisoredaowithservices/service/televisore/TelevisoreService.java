@@ -26,5 +26,5 @@ public interface TelevisoreService {
 
 	public Televisore voglioIlTelevisorePiuGrande() throws Exception;
 
-	public List<String> voglioTutteLeMarcheDiTelevisoriProdottiNegliUltimiSeiMesi() throws Exception;
+	public List<String> voglioTutteLeMarcheDiTelevisoriProdottiNegliUltimiSeiMesi(String todayDate,String sixMonthFromToday) throws Exception;
 }
